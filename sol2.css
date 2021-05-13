@@ -1,0 +1,119 @@
+*{box-sizing: border-box;}
+
+.test {
+    margin-left: 1%;
+    margin-bottom: 1%;
+    padding: auto;
+    background-color: grey;
+    border: 3px solid black;
+    font-size: 100%;
+    font-family: Comic Sans MS;
+  }
+
+  .row {
+    width:100%;
+    margin-top: 15px;
+ }
+
+  h1 {
+    font-size: 150%;
+    font-family: Comic Sans MS;
+    text-align: center;
+    margin: 30px;
+  }
+
+  p{
+      margin-top: 30px;
+  }
+
+  .section1{
+  width: 100%;
+
+  }
+  .section2{
+      width: 100%;
+
+  }
+  .section3{
+      width:100%;
+     
+  }
+  
+  @media (min-width: 992px) {
+    .section1{
+        width: 32%;
+        float: left;
+          }
+          .section2{
+              width: 32%;
+              float: left;
+        
+          }
+          .section3{
+              width:32%;
+              float: left;
+          }
+        }
+          @media (min-width: 768px) and (max-width:991px) {
+
+            .section1{
+                width: 48.5%;
+                float: left;
+                  }
+                  .section2{
+                      width: 48.5%;
+                      float: left;
+                
+                  }
+                  .section3{
+                      width:98%;
+                      float: left;
+                  }
+                }
+                @media (max-width: 767px) {
+                    .section1{
+                        width: 98%;
+                
+                        }
+                        .section2{
+                            width: 98%;
+                    
+                        }
+                        .section3{
+                            width:98%;
+                           
+                        }
+                    }
+                    
+                   
+ .container{
+ position: relative;
+
+
+ }             
+ span{
+     padding:0px 20px;
+
+
+ }
+ 
+span.one{
+    position:absolute;
+    right:0%;
+    background-color: lightPink;
+    border: 2px solid black;
+}
+
+span.two{
+    position:absolute;
+    right:0%;
+    background-color:LightBlue;
+    border: 2px solid black;
+}
+
+span.three{
+    position:absolute;
+    right:0%;
+    background-color:LemonChiffon;
+    border: 2px solid black;
+}
